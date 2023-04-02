@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		34811DFB274B940F00A1E994 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34811DFA274B940F00A1E994 /* main.swift */; };
+		BAA220A929D9099F0081BDCD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220A829D9099F0081BDCD /* Person.swift */; };
+		BAA220AB29D909BA0081BDCD /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220AA29D909BA0081BDCD /* Level.swift */; };
+		BAA220AD29D909CB0081BDCD /* Talent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220AC29D909CB0081BDCD /* Talent.swift */; };
+		BAA220AF29D909E90081BDCD /* BadPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220AE29D909E90081BDCD /* BadPersonality.swift */; };
+		BAA220B129D914AB0081BDCD /* TalentedPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220B029D914AB0081BDCD /* TalentedPerson.swift */; };
+		BAA220B329D91DB10081BDCD /* TalentedPersonWithBadPersonality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220B229D91DB10081BDCD /* TalentedPersonWithBadPersonality.swift */; };
+		BAA220B529D91E480081BDCD /* AuditionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA220B429D91E480081BDCD /* AuditionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		34811DF7274B940F00A1E994 /* CodeStarterCamp_Week5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeStarterCamp_Week5; sourceTree = BUILT_PRODUCTS_DIR; };
 		34811DFA274B940F00A1E994 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BAA220A829D9099F0081BDCD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BAA220AA29D909BA0081BDCD /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		BAA220AC29D909CB0081BDCD /* Talent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talent.swift; sourceTree = "<group>"; };
+		BAA220AE29D909E90081BDCD /* BadPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadPersonality.swift; sourceTree = "<group>"; };
+		BAA220B029D914AB0081BDCD /* TalentedPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedPerson.swift; sourceTree = "<group>"; };
+		BAA220B229D91DB10081BDCD /* TalentedPersonWithBadPersonality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedPersonWithBadPersonality.swift; sourceTree = "<group>"; };
+		BAA220B429D91E480081BDCD /* AuditionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				34811DFA274B940F00A1E994 /* main.swift */,
+				BAA220A829D9099F0081BDCD /* Person.swift */,
+				BAA220AA29D909BA0081BDCD /* Level.swift */,
+				BAA220AC29D909CB0081BDCD /* Talent.swift */,
+				BAA220AE29D909E90081BDCD /* BadPersonality.swift */,
+				BAA220B029D914AB0081BDCD /* TalentedPerson.swift */,
+				BAA220B229D91DB10081BDCD /* TalentedPersonWithBadPersonality.swift */,
+				BAA220B429D91E480081BDCD /* AuditionManager.swift */,
 			);
 			path = CodeStarterCamp_Week5;
 			sourceTree = "<group>";
@@ -119,7 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA220B529D91E480081BDCD /* AuditionManager.swift in Sources */,
+				BAA220A929D9099F0081BDCD /* Person.swift in Sources */,
 				34811DFB274B940F00A1E994 /* main.swift in Sources */,
+				BAA220B329D91DB10081BDCD /* TalentedPersonWithBadPersonality.swift in Sources */,
+				BAA220AB29D909BA0081BDCD /* Level.swift in Sources */,
+				BAA220AF29D909E90081BDCD /* BadPersonality.swift in Sources */,
+				BAA220B129D914AB0081BDCD /* TalentedPerson.swift in Sources */,
+				BAA220AD29D909CB0081BDCD /* Talent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
